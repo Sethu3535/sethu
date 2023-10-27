@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<RegisterForm>
+<StudentDetails>
+	<Name>sethu</Name>
+	<Age>21</Age>
+	<Address>Tiruchengode,Kumaramangalam</Address>
+	<MobileNumber>9025173535</MobileNumber>
+	<College>KSR College Of Engineering</College>
+	<Department>ECE</Department>
+</StudentDetails>
+<StudentDetails>
+	<Name>dinesh</Name>
+	<Age>22</Age>
+	<Address>Tiruchengode,Kumaramangalam</Address>
+	<MobileNumber>9080749877</MobileNumber>
+	<College>KSR College Of Engineering</College>
+	<Department>ECE</Department>
+</StudentDetails>
+<StudentDetails>
+	<Name>naveen</Name>
+	<Age>21</Age>
+	<Address>Tiruchengode</Address>
+	<MobileNumber>9025173535</MobileNumber>
+	<College>Sengunthar Engineering College</College>
+	<Department>RandA</Department>
+</StudentDetails>
+</RegisterForm>

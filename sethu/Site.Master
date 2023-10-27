@@ -1,0 +1,57 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="sethu.SiteMaster" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title>Dinesh</title>
+    <asp:ContentPlaceHolder ID="Dashboard" runat="server">
+    </asp:ContentPlaceHolder>
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div>
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid" >
+            <a href="#" class="navbar-brand ">Dashboard</a>
+            <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbar-collapse">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbar-collapse">
+                <div class="navbar-nav">
+                    <a href="Student_Allotment.aspx" class="nav-item nav-link active">Home</a>
+                    <a href="Jobs.aspx" class="nav-item nav-link">Jobs</a>
+                    <a href="#" class="nav-item nav-link">About</a>
+                    <a href="#" class="nav-item nav-link">Careers</a>
+                    <a href="#" class="nav-item nav-link">Services</a>
+                </div>
+                <div class="nav-item dropdown">
+                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" style="color:red">Message</a>
+                    <div class="dropdown-menu">
+                        <a href="#" class="dropdown-item">Inbox</a>  
+                        <a href="#" class="dropdown-item">Send</a>
+                        <a href="#" class="dropdown-item">Draft</a>
+                        <a href="#" class="dropdown-item">Spam</a>
+                    </div>
+                </div>
+                <div class="navbar-nav ml-xl-auto">
+                    <a href="Login.aspx" class="nav-item nav-link">Login</a>
+                    <a href="Register.aspx" class="nav-item nav-link">Register</a>
+                </div>
+                    
+            </div>
+         </div>
+    </nav>
+
+   
+            <div>
+            <asp:ContentPlaceHolder ID="Home" runat="server">
+            </asp:ContentPlaceHolder>
+          </div>
+        </div>
+    </form>
+</body>
+</html>
